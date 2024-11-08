@@ -44,8 +44,8 @@ for ($i = 0; $i -lt $charArray.Length - 1; $i += 2) {
 
 $shuffledFlag = -join $charArray
 
-
+$flagPart2 = "_0f_4_m4lw4r3_4n4lyst_mys3lf}"
 
 Set-Content -Path "flag1.txt.enc" -Value $shuffledFlag
 
-
+Write-Output "Flag Part 2: $flagPart2"
