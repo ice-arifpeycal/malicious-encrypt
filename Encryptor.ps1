@@ -44,8 +44,6 @@ for ($i = 0; $i -lt $charArray.Length - 1; $i += 2) {
 
 $shuffledFlag = -join $charArray
 
-$flagPart2 = ""
-
 Set-Content -Path "flag1.txt.enc" -Value $shuffledFlag
 
-Write-Output "Flag Part 2: $flagPart2"
+# Changes: Remove flag2 due to security reasons. Will add encryption function in next update
