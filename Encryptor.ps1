@@ -47,3 +47,4 @@ $shuffledFlag = -join $charArray
 Set-Content -Path "flag1.txt.enc" -Value $shuffledFlag
 
 # Changes: Remove flag2 due to security reasons. Will add encryption function in next update
+# P/S: Push the encrypted file to the hub.
